@@ -9,6 +9,7 @@ const Signup = () => {
   const handleClick = async () => {
     if (!email || !password) {
       alert("Please enter both email and password");
+      
       return;
     }
 
