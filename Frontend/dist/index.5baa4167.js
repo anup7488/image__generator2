@@ -34587,7 +34587,7 @@ const ImageGenerator = (props)=>{
     const handleClick = async ()=>{
         cValue.setUserPoints(cValue.userPoints - 1);
         try {
-            const res = await fetch(`https://img-generator-edna.onrender.com/api/v1/images`, {
+            const res = await fetch(`https://image-generator2-1.onrender.com/api/v1/images`, {
                 method: "POST",
                 body: JSON.stringify({
                     searchText: searchText
@@ -35125,7 +35125,7 @@ const Signup = ()=>{
             alert("Please enter both email and password");
             return;
         }
-        const res = await fetch("https://img-generator-edna.onrender.com/api/v1/auth/signup", {
+        const res = await fetch("https://image-generator2-1.onrender.com/api/v1/auth/signup", {
             headers: {
                 "Content-Type": "application/json"
             },
@@ -35144,7 +35144,7 @@ const Signup = ()=>{
                 page: "signup"
             }, void 0, false, {
                 fileName: "src/pages/signuppage/signuppage.js",
-                lineNumber: 29,
+                lineNumber: 30,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35154,7 +35154,7 @@ const Signup = ()=>{
                         children: "Sign Up"
                     }, void 0, false, {
                         fileName: "src/pages/signuppage/signuppage.js",
-                        lineNumber: 31,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35164,7 +35164,7 @@ const Signup = ()=>{
                                 children: "Email"
                             }, void 0, false, {
                                 fileName: "src/pages/signuppage/signuppage.js",
-                                lineNumber: 33,
+                                lineNumber: 34,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -35174,13 +35174,13 @@ const Signup = ()=>{
                                 onChange: (e)=>setEmail(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/pages/signuppage/signuppage.js",
-                                lineNumber: 34,
+                                lineNumber: 35,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/signuppage/signuppage.js",
-                        lineNumber: 32,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35190,7 +35190,7 @@ const Signup = ()=>{
                                 children: "Password"
                             }, void 0, false, {
                                 fileName: "src/pages/signuppage/signuppage.js",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -35200,13 +35200,13 @@ const Signup = ()=>{
                                 onChange: (e)=>setPassword(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/pages/signuppage/signuppage.js",
-                                lineNumber: 43,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/pages/signuppage/signuppage.js",
-                        lineNumber: 41,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -35215,19 +35215,19 @@ const Signup = ()=>{
                         children: "Signup"
                     }, void 0, false, {
                         fileName: "src/pages/signuppage/signuppage.js",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/pages/signuppage/signuppage.js",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/pages/signuppage/signuppage.js",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 5
     }, undefined);
 };
@@ -35384,7 +35384,7 @@ const Login = ()=>{
             return;
         }
         try {
-            const res = await fetch(`https://img-generator-edna.onrender.com/api/v1/auth/login`, {
+            const res = await fetch(`https://image-generator2-1.onrender.com/api/v1/auth/login`, {
                 headers: {
                     "Content-Type": "application/json"
                 },
